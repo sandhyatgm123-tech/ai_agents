@@ -1,0 +1,13 @@
+# Minimal requirements to run the demo and tests
+# Core logic has ZERO dependencies - this is just for the agent
+
+# Only needed if running agent/coordinator.py with Claude API
+anthropic>=0.18.0
+
+# Development/testing
+pytest>=7.4.0
+
+# NOTE: The demo.py and tests/test_core.py work with NO dependencies at all!
+# You can run them without installing anything:
+#   python3 demo.py
+#   python3 tests/test_core.py

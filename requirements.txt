@@ -1,0 +1,21 @@
+# Core dependencies (none for core/ module!)
+# Core logic has ZERO dependencies
+
+# Agent orchestration dependencies
+anthropic>=0.18.0
+
+# MCP Server dependencies (for running the weather MCP server)
+# Install with: pip install mcp
+mcp>=1.0.0
+
+# Optional: real flight data (free Amadeus tier)
+# Set AMADEUS_CLIENT_ID + AMADEUS_CLIENT_SECRET to use
+amadeus>=8.0.0
+
+# Web UI
+streamlit>=1.28.0
+
+# Development dependencies
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
